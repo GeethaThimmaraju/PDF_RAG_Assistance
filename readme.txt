@@ -31,15 +31,15 @@ Groq API	LLM inference backend
 
 Clone the repository
 
-git clone https://github.com/<your-username>/pdf-rag-assistant.git
+git clone https://github.com/<GeethaThimmaraju>/pdf-rag-assistant.git
 cd pdf-rag-assistant
 
 
-Create a virtual environment (recommended)
+Create a virtual environment 
 
 python -m venv venv
-venv\Scripts\activate   # (Windows)
-source venv/bin/activate  # (Mac/Linux)
+venv\Scripts\activate  
+
 
 
 Install dependencies
@@ -54,12 +54,7 @@ pip install streamlit PyPDF2 requests
 
 Set your Groq API key
 
-Either directly in the Streamlit sidebar
-
-Or securely via a .streamlit/secrets.toml file:
-
-[general]
-GROQ_API_KEY = "your_api_key_here"
+GROQ_API_KEY = "gsk_HrIyEHlHR5Gqt5rMMhk0WGdyb3FY5nz8DbiYTEDfYXqs8b5iFHPme"
 
 ▶️ Run the App
 streamlit run app.py
@@ -88,5 +83,6 @@ mixtral-8x7b-32768
 llama-3.1-8b-instant
 
 gemma-7b-it
+
 
 llama-3.3-70b-versatile
